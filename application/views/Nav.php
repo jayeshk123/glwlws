@@ -28,7 +28,7 @@
                 <li><a href="farm.html">Farm activities</a></li>-->
                 </ul>
             </li>
-            <li><a href="#">Contact us</a></li>
+            <li><a href="javascript:void(0);" onclick="goToContactUs();">Contact us</a></li>
             <li><a href="fullscreen_gallery.html">Gallery</a></li>
 
             <!-- <li class="megamenu submenu">
@@ -65,5 +65,6 @@
             <!--   </li>-->
         </ul>
     </div>
+    <script src="<?php echo site_url('js/custom.js');?>"></script>
     <!-- End main-menu -->
 </nav>

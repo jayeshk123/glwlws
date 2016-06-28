@@ -17,7 +17,7 @@
                 <li><a href="room_booking.html">Room details Booking</a></li>
             </ul>
         </li> -->
-            <li><a href="about.html">About</a></li>
+            <li><a href="<?php echo site_url('About');?>">About</a></li>
             <li class="submenu">
                 <a href="javascript:void(0);" class="show-submenu">Activities <i class="icon-down-open-mini"></i></a>
                 <ul>

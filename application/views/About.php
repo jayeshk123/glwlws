@@ -22,9 +22,9 @@
     <link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
     
     <!-- BASE CSS -->
-    <link href="css/base.css" rel="stylesheet">
+    <link href="<?php echo site_url();?>/css/base.css" rel="stylesheet">
     <!-- SPECIFIC CSS -->
-    <link rel="stylesheet" href="css/weather.css" >
+    <link rel="stylesheet" href="<?php echo site_url();?>css/weather.css" >
 
     <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
@@ -89,8 +89,7 @@
         <div class="container">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Category</a></li>
-                <li>Page active</li>
+                <li><a href="<?php echo site_url('About');?>">About</a></li>
             </ul>
         </div>
     </div><!-- End Position -->
@@ -98,7 +97,7 @@
     <div class="container margin_60">
         <div class="main_title">
             <p>
-                <img src="img/best_price.png" alt="">
+                <img src="<?php echo site_url();?>/img/best_price.png" alt="">
             </p>
             <span></span>
             <h2>About Green Leaf Wild Life</h2>

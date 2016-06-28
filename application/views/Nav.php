@@ -29,7 +29,7 @@
                 </ul>
             </li>
             <li><a href="javascript:void(0);" onclick="goToContactUs();">Contact us</a></li>
-            <li><a href="fullscreen_gallery.html">Gallery</a></li>
+            <li><a href="<?php echo site_url('Gallery');?>">Gallery</a></li>
 
             <!-- <li class="megamenu submenu">
             <a href="javascript:void(0);" class="show-submenu-mega">Pages &amp; elements<i class="icon-down-open-mini"></i></a>

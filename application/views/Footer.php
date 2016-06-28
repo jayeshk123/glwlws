@@ -21,7 +21,7 @@
 					<!-- <li><a href="#">Rooms</a></li>-->
 					<li><a href="#">Activities</a></li>
 					<li><a href="#">Contact us</a></li>
-					<li><a href="#">Gallery</a></li>
+					<li><a href="<?php echo site_url('Gallery');?>">Gallery</a></li>
 				</ul>
 			</div>
 			<div class="col-md-3 col-sm-3" id="newsletter">

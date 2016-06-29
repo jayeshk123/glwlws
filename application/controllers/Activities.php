@@ -15,6 +15,22 @@ class Activities extends CI_Controller
 	}
 	public function index()
 	{
-		$this->load->view('Activities');
+		$this->load->view('activities/Activities');
+	}
+	function jungle_safari()
+	{
+		$this->load->view("activities/Jungle_safari");
+	}
+	function bird_watching()
+	{
+		$this->load->view("activities/Bird_watching");
+	}
+	function photography()
+	{
+		$this->load->view("activities/Photography");
+	}
+	function jungle_trail()
+	{
+		$this->load->view("activities/Jungle_trail");
 	}
 }

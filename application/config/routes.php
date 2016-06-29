@@ -50,5 +50,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'Home';
+
+$route['Activities/Jungle-Safari'] = 'Activities/jungle_safari';
+
+$route['Activities/Bird-Watching'] = 'Activities/bird_watching';
+
+$route['Activities/Photography'] = 'Activities/photography';
+
+$route['Activities/Jungle-Trail'] = 'Activities/jungle_trail';
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

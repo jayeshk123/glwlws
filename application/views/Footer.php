@@ -19,8 +19,8 @@
 				<ul>
 					<li><a href="<?php echo site_url('About');?>">About us</a></li>
 					<!-- <li><a href="#">Rooms</a></li>-->
-					<li><a href="#">Activities</a></li>
-					<li><a href="#">Contact us</a></li>
+					<li><a href="<?php echo site_url("Activities");?>">Activities</a></li>
+					<li><a href="<?php echo site_url("Contact");?>">Contact us</a></li>
 					<li><a href="<?php echo site_url('Gallery');?>">Gallery</a></li>
 				</ul>
 			</div>

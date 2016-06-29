@@ -5,9 +5,9 @@
 <html>
 <!--<![endif]-->
 <head>
-	<?php include("Meta.php");?>
+	<?php $this->load->view('Meta.php'); ?>
 
-	<title>Green Leaf Wild Life - Premium site template for a country accommodation.</title>
+	<title>Green Leaf Wild Life</title>
 
 	<!-- Favicons-->
 	<link rel="shortcut icon" type="image/x-icon" href="<?php echo site_url('img/favicon.ico');?>">
@@ -65,7 +65,7 @@
 							<a href="<?php echo site_url('Home');?>"><img src="#"  alt="Your Logo" data-retina="true"></a>
 						</div>
 					</div>
-					<?php require("Nav.php");?>
+					<?php $this->load->view('Nav.php'); ?>
 				</div>
 			</div>
 		</div>
@@ -273,7 +273,7 @@
 	</div>
 	<!-- End container-fluid  -->
 
-	<?php require("Footer.php");?>
+	<?php $this->load->view('Footer.php'); ?>
 
 	<div id="toTop"></div>
 	<!-- Back to top button -->

@@ -110,7 +110,7 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <img src="http://greenleafwildlife.com/wp-content/uploads/2015/06/tadoba7-580x460.jpg" alt="" class="img-responsive styled">
-                        <h3>Tiger Safari</h3>
+                        <h3>Jungle Safari</h3>
                         <p>
                             Esse dicit accusam duo an. Modus simul ei nec. Sea et explicari pertinacia, <strong>cu vitae bonorum</strong> vocibus nec, corpora signiferumque no vim. Ad principes scriptorem duo, te omnium gubergren eam, et eam ancillae appareat dissentiet. Quando tantas animal vis ut, mandamus voluptatum duo ne, ne odio vidit commodo has.
                         </p>
@@ -124,14 +124,14 @@
                     </div>
                     <div class="col-md-6 col-sm-6">
                         <img src="http://greenleafwildlife.com/wp-content/uploads/2015/06/IMG-20150607-WA0016.jpg" alt="" class="img-responsive styled">
-                        <h3>Stress buster Family Tour</h3>
+                        <h3>Photography</h3>
                         <p>
                             Esse dicit accusam duo an. Modus simul ei nec. Sea et explicari pertinacia, <strong>cu vitae bonorum</strong> vocibus nec, corpora signiferumque no vim. Ad principes scriptorem duo, te omnium gubergren eam, et eam ancillae appareat dissentiet.
                         </p>
                     </div>
                     <div class="col-md-6 col-sm-6">
                         <img src="http://greenleafwildlife.com/wp-content/uploads/2015/06/IMG-20150607-WA0016.jpg" alt="" class="img-responsive styled">
-                        <h3>Stress buster Corporate Tour</h3>
+                        <h3>Jungle Trail</h3>
                         <p>
                             Esse dicit accusam duo an. Modus simul ei nec. Sea et explicari pertinacia, <strong>cu vitae bonorum</strong> vocibus nec, corpora signiferumque no vim. Ad principes scriptorem duo, te omnium gubergren eam, et eam ancillae appareat dissentiet.
                         </p>
@@ -212,14 +212,14 @@
             </div><!-- End row -->
         </div><!-- End testimonials -->
         
-       <div class="main_title add_bottom_45">
+      <!-- <div class="main_title add_bottom_45">
             <span></span>
             <h2>Weather forecast</h2>
             <p>
                 Ad principes scriptorem duo, te omnium gubergren eam, et eam ancillae appareat dissentiet.
             </p>
-        </div>
-        <div id="weather" class="clearfix"></div><!-- Weather widget -->
+        </div>-->
+        <!--<div id="weather" class="clearfix"></div><!-- Weather widget -->
  </div><!-- End Container -->
         
     <?php require("Footer.php");?>

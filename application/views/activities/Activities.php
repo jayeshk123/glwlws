@@ -89,8 +89,8 @@
 	<div id="position">
     	<div class="container">
         	<ul>
-            	<li><a href="<?php echo site_url("Home");?>">Home</a></li>
-            	<li><a href="<?php echo site_url("Activities");?>">All Activities</a></li>
+            	<li><a href="<?php echo site_url('Home');?>">Home</a></li>
+            	<li><a href="<?php echo site_url('Activities');?>">All Activities</a></li>
             </ul>
         </div>
     </div><!-- End Position -->
@@ -135,7 +135,7 @@
 					<div class="col-lg-2 col-md-2 col-sm-2">
 						<div class="price_list">
 							<div>
-								<sup>$</sup>89*<span class="normal_price_list">$99</span><small>*Pax/Per night</small>
+								<sup>5-7 Days</sup>
 								<p>
 									<a href="#" class="btn_1">Details</a>
 								</p>
@@ -182,7 +182,7 @@
 					<div class="col-lg-2 col-md-2 col-sm-2">
 						<div class="price_list">
 							<div>
-								<sup>$</sup>89*<span class="normal_price_list">$99</span><small>*Pax/Per night</small>
+								<sup>5-7 Days</sup>
 								<p>
 									<a href="#" class="btn_1">Details</a>
 								</p>
@@ -229,7 +229,7 @@
 					<div class="col-lg-2 col-md-2 col-sm-2">
 						<div class="price_list">
 							<div>
-								<sup>$</sup>89*<span class="normal_price_list">$99</span><small>*Pax/Per night</small>
+								<sup>5-7 Days</sup>
 								<p>
 									<a href="#" class="btn_1">Details</a>
 								</p>
@@ -276,7 +276,7 @@
 					<div class="col-lg-2 col-md-2 col-sm-2">
 						<div class="price_list">
 							<div>
-								<sup>$</sup>89*<span class="normal_price_list">$99</span><small>*Pax/Per night</small>
+								<sup>5-7 Days</sup>
 								<p>
 									<a href="#" class="btn_1">Details</a>
 								</p>

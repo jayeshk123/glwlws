@@ -6,15 +6,16 @@
 <!--<![endif]-->
 
 <head>
-    <?php include("Meta.php");?>
-    <title>Country Holidays - Activities</title>
+    <?php $this->load->view('Meta.php'); ?>
+    
+    <title>Green Leaf Wild Life - Jungle Safari</title>
 
     <!-- Favicons-->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo site_url('img/favicon.ico');?>">
+	<link rel="apple-touch-icon" type="image/x-icon" href="<?php echo site_url('img/apple-touch-icon-57x57-precomposed.png');?>">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="<?php echo site_url('img/apple-touch-icon-72x72-precomposed.png');?>">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="<?php echo site_url('img/apple-touch-icon-114x114-precomposed.png');?>">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="<?php echo site_url('img/apple-touch-icon-144x144-precomposed.png');?>">
 
     <!-- Google web fonts -->
     <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
@@ -22,7 +23,7 @@
     <link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
    
     <!-- BASE CSS -->
-    <link href="<?php echo site_url();?>/css/base.css" rel="stylesheet">
+    <link href="<?php echo site_url('css/base.css');?>" rel="stylesheet">
 
     <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
@@ -68,7 +69,7 @@
                         <a href="<?php echo site_url('Home');?>"><img src="#"  alt="Your Logo" data-retina="true"></a>
                     </div>
                 </div>
-                <?php require("Nav.php");?>
+                <?php $this->load->view('Nav.php'); ?>
             </div>
             </div>
         </div>
@@ -309,16 +310,15 @@
 		</div><!-- End col-lg-3 -->
 	</div><!-- End row -->
 </div><!-- End Container -->
-    
-   <?php require("Footer.php");?>
+<?php $this->load->view('Footer.php'); ?>
 
 <div id="toTop"></div><!-- Back to top button -->
 
 <!-- Common scripts -->
-<script src="js/jquery-1.11.2.min.js"></script>
-<script src="js/common_scripts_min.js"></script>
-<script src="js/functions.js"></script>
-<script src="assets/validate.js"></script>
+<script src="<?php echo site_url('js/jquery-1.11.2.min.js');?>"></script>
+<script src="<?php echo site_url('js/common_scripts_min.js');?>"></script>
+<script src="<?php echo site_url('js/functions.js');?>"></script>
+<script src="<?php echo site_url('assets/validate.js');?>"></script>
 
 </body>
 </html>

@@ -22,13 +22,13 @@
                 <a href="javascript:void(0);" class="show-submenu">Activities <i class="icon-down-open-mini"></i></a>
                 <ul>
                     <li><a href="<?php echo site_url('Activities');?>">All activities</a></li>
-                    <li><a href="#">Jungle Safari</a></li>
-                    <li><a href="#">Bird Watching</a></li>
-					<li><a href="#">Photography</a></li>
-					<li><a href="#">Jungle Trail</a></li>
+                    <li><a href="<?php echo site_url('Activities/Jungle-Safari');?>">Jungle Safari</a></li>
+                    <li><a href="<?php echo site_url('Activities/Bird-Watching');?>">Bird Watching</a></li>
+					<li><a href="<?php echo site_url('Activities/Photography');?>">Photography</a></li>
+					<li><a href="<?php echo site_url('Activities/Jungle-Trail');?>">Jungle Trail</a></li>
                 </ul>
             </li>
-            <li><a href="javascript:void(0);" onclick="goToContactUs();">Contact us</a></li>
+            <li><a href="<?php echo site_url("Contact");?>">Contact us</a></li>
             <li><a href="<?php echo site_url('Gallery');?>">Gallery</a></li>
 
             <!-- <li class="megamenu submenu">

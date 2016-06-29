@@ -7,7 +7,7 @@
 
 <head>
     <?php include("Meta.php");?>
-    <title>Green Leaf Wild Life</title>
+    <title>Green Leaf Wild Life - About</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -65,7 +65,7 @@
             	<div class="row">
 					<div class="col-md-4 col-sm-4 col-xs-4">
 						<div id="logo">
-							<a href="<?php echo site_url('About');?>"><img src="#"  alt="Your Logo" data-retina="true"></a>
+							<a href="<?php echo site_url('Home');?>"><img src="#"  alt="Your Logo" data-retina="true"></a>
 						</div>
 					</div>
 					<?php require("Nav.php");?>

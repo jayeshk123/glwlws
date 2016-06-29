@@ -21,11 +21,11 @@
             <li class="submenu">
                 <a href="javascript:void(0);" class="show-submenu">Activities <i class="icon-down-open-mini"></i></a>
                 <ul>
-                    <li><a href="#">All activities</a></li>
-                    <li><a href="#">Family activities</a></li>
-                    <li><a href="#">Corporate activities</a></li>
-                    <!-- <li><a href="cooking.html">Cooking local food</a></li>
-                <li><a href="farm.html">Farm activities</a></li>-->
+                    <li><a href="<?php echo site_url('Activities');?>">All activities</a></li>
+                    <li><a href="#">Jungle Safari</a></li>
+                    <li><a href="#">Bird Watching</a></li>
+					<li><a href="#">Photography</a></li>
+					<li><a href="#">Jungle Trail</a></li>
                 </ul>
             </li>
             <li><a href="javascript:void(0);" onclick="goToContactUs();">Contact us</a></li>

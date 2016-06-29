@@ -7,7 +7,7 @@
 
 <head>
    <?php include("Meta.php");?>
-    <title>Country Holidays</title>
+    <title>Green Leaf Wild Life - Gallery</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
